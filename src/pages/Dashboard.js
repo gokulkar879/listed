@@ -8,7 +8,7 @@ import Activity from '../components/Activity';
 import FooterLeft from '../components/FooterLeft';
 import FooterRight from '../components/FooterRight';
 
-
+//the home page
 function Dashboard() {
   return (
     <div className='dashboard'>
