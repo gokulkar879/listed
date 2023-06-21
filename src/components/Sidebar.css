@@ -1,0 +1,45 @@
+.sidebar {
+    flex: .20;
+    background-color: #000000;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar > h4 {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+
+.sidebar-center {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-center > button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    margin: 20px 0;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-center > button > span {
+    margin-left: 30px;
+}
+
+.sidebar-footer > p{
+    color: #FFFFFF;
+    margin: 10px 0;
+}

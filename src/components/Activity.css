@@ -1,0 +1,59 @@
+.activity {
+  padding: 0 10px;
+  background-color: #FFFFFF;
+  padding-right: 50px;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.activity-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* .activity-header-left {
+
+} */
+
+.activity-header-left > h5 {
+   font-size: 1.2rem;
+   letter-spacing: 2px;
+}
+
+.activity-header-left > p {
+    font-size: .9rem;
+    color: #858585;
+}
+
+.activity-header-right {
+   display: flex;
+   justify-content: space-around;
+}
+
+.graph-axis {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.graph-axis > span {
+    margin-left: 10px;
+    font-size: .9rem;
+}
+
+.guest {
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   background-color: #E9A0A0;
+}
+
+.user {
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   background-color: #9BDD7C;
+}
