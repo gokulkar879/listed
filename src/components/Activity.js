@@ -2,6 +2,7 @@ import React from 'react';
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend } from 'recharts';
 import "./Activity.css";
 
+//dummy data
 const data = [
      {
         "name": "Week 1",
@@ -38,14 +39,14 @@ function Activity() {
                 <p>May - June 2021</p>
             </div>
             <div className='activity-header-right'>
-                <p className='graph-axis'>
-                    <div className='guest'></div>
+                <div className='graph-axis'>
+                    <p className='guest'></p>
                     <span>Guest</span>
-                </p>
-                <p className='graph-axis'>
-                    <div className='user'></div>
+                </div>
+                <div className='graph-axis'>
+                    <p className='user'></p>
                     <span>User</span>
-                </p>
+                </div>
                 
             </div>
         </div>

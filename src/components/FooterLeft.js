@@ -1,5 +1,7 @@
 import React from 'react';
 import { PieChart, Pie, Cell } from "recharts";
+
+//dummy data
 const data = [
     {
       "name": "Basic Tees",

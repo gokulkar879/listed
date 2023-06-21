@@ -1,6 +1,8 @@
 import React from 'react';
 import SignIn from '../components/SignIn';
 
+
+//authpage when a user signs in 
 function AuthPage() {
   return (
     <div className='authpage'>
